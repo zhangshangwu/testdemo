@@ -2,6 +2,13 @@
 # version format
 version: 0.1.6.{build}
 
+# branches to build
+branches:
+  # whitelist
+  only:
+    - master
+    - dev
+    
 # build platform, i.e. x86, x64, Any CPU. This setting is optional.
 platform: x86
 
