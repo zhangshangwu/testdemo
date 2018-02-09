@@ -18,7 +18,7 @@ build:
   project: solutions\KitchenSink\KitchenSink.sln      # path to Visual Studio solution or project
 
 before_build:
-  - ps: nuget solutions\KitchenSink\KitchenSink.sln
+  - ps: nuget restore solutions\KitchenSink\KitchenSink.sln
   
 
 # deploy:
